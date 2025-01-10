@@ -1,4 +1,6 @@
-return { -- Adds git related signs to the gutter, as well as utilities for managing changes
+return {
+	-- Adds git related signs to the gutter, as well as utilities for managing changes
+	-- Similar to gitlens
 	"lewis6991/gitsigns.nvim",
 	opts = {
 		signs = {
